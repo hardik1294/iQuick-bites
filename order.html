@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order - Quick bites</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Quick bites</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Place Order</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+
+<section class="order-section">
+    <h2>Place Your Order</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Delivery Address:</label>
+        <input type="address" name="address"  required><br>
+
+        <label for="menu-item">Select Menu Item:</label>
+        <div class="menu-options">
+            <div class="menu-option">
+                <img src="salads.jpg" alt="salads"> <!-- Replace with actual image path -->
+                <span>salads</span>
+                <input type="radio" id="dish1" name="menu-item" value="dish1" required>
+            </div>
+            <div class="menu-option">
+                <img src="pizza image.jpg" alt="pizza"> <!-- Replace with actual image path -->
+                <span>pizza</span>
+                <input type="radio" id="dish2" name="menu-item" value="dish2">
+            </div>
+            <div class="menu-option">
+                <img src="pasta.jpg" alt="pasta"> <!-- Replace with actual image path -->
+                <span>pasta</span>
+                <input type="radio" id="dish3" name="menu-item" value="dish3">
+            </div>
+            <div class="menu-option">
+                <img src="burger.jpg" alt="burger"> <!-- Replace with actual image path -->
+                <span>burger</span>
+                <input type="radio" id="dish4" name="menu-item" value="dish4">
+            </div>
+            <div class="menu-option">
+                <img src="hot coffee.jpg" alt="Hot coffee"> <!-- Replace with actual image path -->
+                <span>Hot coffee</span>
+            </div>
+                <input type="radio" id="dish5" name="menu-item" value="dish5">
+                <div class="menu-option">
+                    <img src="coffee.jpg" alt="cold coffee"> <!-- Replace with actual image path -->
+                    <span>Cold coffee </span>
+                    <input type="radio" id="dish6" name="menu-item" value="dish6">
+            </div>
+        </div>
+
+        <button type="submit">Submit Order</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
